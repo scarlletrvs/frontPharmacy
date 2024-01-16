@@ -1,21 +1,21 @@
 <template>
-<div class="card">
-<p style="font-size: 14px; font-weight: bold;">
-    nome da farmacia
-</p>
-<p style="font-size: 12px; font-weight: bold;">
-    endereço
-</p>
-<p style="font-size: 12px; font-weight: bold;">
-   ditancia em metros
-</p> 
+  <div class="card">
+    <p style="font-size: 14px; font-weight: bold;">
+      Nome da Farmácia
+    </p>
+    <p style="font-size: 12px; font-weight: bold;">
+      Endereço
+    </p>
+    <p style="font-size: 12px; font-weight: bold;">
+      Distância em metros
+    </p>
 
-<buttonWhatsapp/>
+    <input type="text" placeholder="Digite sua localização">
 
-
-</div>
-  
+    <buttonWhatsapp/>
+  </div>
 </template>
+
 
 
 <style>
@@ -27,6 +27,7 @@
     width: 160px;
     background-color: aquamarine;
     flex-direction: column;
+    gap: 5px;
 }
 </style>
 
